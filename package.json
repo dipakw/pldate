@@ -1,8 +1,9 @@
 {
   "name": "pldate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "PHP like date/time retrieval in Node.js.",
   "main": "index.js",
+  "repository": "https://github.com/dipakw/pldate.git",
   "scripts": {
     "test": "mocha",
     "test:coverage": "nyc mocha",
