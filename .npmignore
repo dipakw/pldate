@@ -1,0 +1,6 @@
+.mocharc
+.eslintrc.js
+.vscode
+.nycrc
+tests/
+.gitignore
