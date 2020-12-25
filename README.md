@@ -1,3 +1,8 @@
+![GitHub](https://img.shields.io/github/license/dipakw/pldate?style=flat-square)
+![npm](https://img.shields.io/npm/v/pldate?label=version&logo=npm&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/dipakw/pldate?style=flat-square)
+![nycrc config on GitHub](https://img.shields.io/nycrc/dipakw/pldate?config=.nycrc&label=code%20coverage&preferredThreshold=functions&style=flat-square)
+
 # PLDate - PHP like date time retrieval in NodeJS
 A simple, fast, lightweight and easy to use NodeJS library to get the date and time like in PHP.
 
