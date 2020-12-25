@@ -1,0 +1,23 @@
+name: ✅ Test Codes & Coverage
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: ✅ Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+        name: 💦 Checkout code
+      - uses: actions/setup-node@v1
+        name: 🛑 Setup Node.js v12
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: yarn install
+        name: 🔨 Install packages
+      - run: yarn test
+        name: ✅ Run tests
+      - run: yarn test:coverage
+        name: 🌗 Check coverage
